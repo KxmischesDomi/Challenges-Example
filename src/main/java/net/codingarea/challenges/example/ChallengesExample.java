@@ -12,7 +12,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class ChallengesExample extends BukkitModule {
 
 	/**
-	 * Executed in {@link JavaPlugin#onLoad()} ()}
+	 * Executed in {@link JavaPlugin#onLoad()}
 	 */
 	@Override
 	protected void handleLoad() {
@@ -36,7 +36,7 @@ public class ChallengesExample extends BukkitModule {
 	}
 
 	/**
-	 * Executed in {@link JavaPlugin#onDisable()} ()}
+	 * Executed in {@link JavaPlugin#onDisable()}
 	 */
 	@Override
 	protected void handleDisable() {
