@@ -1,0 +1,12 @@
+name: ChallengesExample
+version: 1.0
+author: KxmischesDomi
+api-version: 1.13
+main: net.codingarea.challenges.example.ChallengesExample
+
+# Add the challenges plugin as depend
+depend: [Challenges]
+
+commands:
+  example:
+    description: "An example command for the command setting example"
