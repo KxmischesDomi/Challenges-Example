@@ -16,8 +16,6 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * @author KxmischesDomi | https://github.com/kxmischesdomi
- *
  * An example of the setting type {@link Setting} with an implemented command
  *
  * {@link PlayerCommand} is an instance of {@link CommandExecutor} which only executes when the sender is a player.

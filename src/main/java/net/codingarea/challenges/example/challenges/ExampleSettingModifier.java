@@ -9,8 +9,6 @@ import net.codingarea.challenges.plugin.utils.item.ItemBuilder;
 import org.bukkit.Material;
 
 /**
- * @author KxmischesDomi | https://github.com/kxmischesdomi
- *
  * An example of the setting type {@link SettingModifier} which contains a boolean and an integer value.
  */
 public class ExampleSettingModifier extends SettingModifier {

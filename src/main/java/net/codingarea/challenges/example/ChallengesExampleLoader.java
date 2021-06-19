@@ -9,7 +9,7 @@ import org.bukkit.Material;
 import org.bukkit.event.entity.EntityDamageEvent.DamageCause;
 
 /**
- * @author KxmischesDomi | https://github.com/kxmischesdomi
+ * Your own instance of {@link ModuleChallengeLoader} to register your own challenges
  */
 public class ChallengesExampleLoader extends ModuleChallengeLoader {
 

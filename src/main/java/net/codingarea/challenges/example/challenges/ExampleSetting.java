@@ -6,8 +6,6 @@ import net.codingarea.challenges.plugin.utils.item.ItemBuilder;
 import org.bukkit.Material;
 
 /**
- * @author KxmischesDomi | https://github.com/kxmischesdomi
- *
  * An example of the setting type {@link Setting} which contains a boolean value.
  */
 public class ExampleSetting extends Setting {

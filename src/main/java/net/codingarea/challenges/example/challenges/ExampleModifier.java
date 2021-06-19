@@ -7,8 +7,6 @@ import net.codingarea.challenges.plugin.utils.item.ItemBuilder;
 import org.bukkit.Material;
 
 /**
- * @author KxmischesDomi | https://github.com/kxmischesdomi
- *
  * An example of the setting type {@link Modifier} which contains an integer value.
  */
 public class ExampleModifier extends Modifier {
