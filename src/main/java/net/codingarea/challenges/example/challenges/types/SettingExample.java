@@ -1,4 +1,4 @@
-package net.codingarea.challenges.example.challenges;
+package net.codingarea.challenges.example.challenges.types;
 
 import net.codingarea.challenges.plugin.challenges.type.abstraction.Setting;
 import net.codingarea.challenges.plugin.management.menu.MenuType;
@@ -8,9 +8,9 @@ import org.bukkit.Material;
 /**
  * An example of the setting type {@link Setting} which contains a boolean value.
  */
-public class ExampleSetting extends Setting {
+public class SettingExample extends Setting {
 
-	public ExampleSetting() {
+	public SettingExample() {
 		super(
 				MenuType.SETTINGS, // The menu were your challenge will be shown in.
 				false // If the challenge should be activated by default

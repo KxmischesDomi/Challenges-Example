@@ -1,46 +1,46 @@
-package net.codingarea.challenges.example.challenges;
+package net.codingarea.challenges.example.challenges.types;
 
 import net.codingarea.challenges.plugin.challenges.type.abstraction.Modifier;
-import net.codingarea.challenges.plugin.challenges.type.abstraction.Setting;
 import net.codingarea.challenges.plugin.management.menu.MenuType;
 import net.codingarea.challenges.plugin.utils.item.ItemBuilder;
+import org.bukkit.Bukkit;
 import org.bukkit.Material;
 
 /**
  * An example of the setting type {@link Modifier} which contains an integer value.
  */
-public class ExampleModifier extends Modifier {
+public class ModifierExample extends Modifier {
 
 	/**
 	 * Example constructor with maximum value.
 	 */
-	public ExampleModifier(int max) {
+	public ModifierExample(int max) {
 		super(
-				/* The menu were your setting will be shown in. */ MenuType.SETTINGS,
-				/* max value of challenge */ max
+				MenuType.SETTINGS, // The menu were your setting will be shown in.
+				max // Maximum value of setting
 		);
 	}
 
 	/**
 	 * Example constructor with minimum and maximum value.
 	 */
-	public ExampleModifier(int min, int max) {
+	public ModifierExample(int min, int max) {
 		super(
-				/* The menu were your setting will be shown in. */ MenuType.SETTINGS,
-				/* maximum value of setting */ max,
-				/* minimum value of the setting */ min
+				MenuType.SETTINGS, // The menu were your setting will be shown in.
+				max, // Maximum value of setting
+				min // Minimum value of the setting
 		);
 	}
 
 	/**
 	 * Example constructor with minimum, maximum and default value.
 	 */
-	public ExampleModifier(int min, int max, int defaultValue) {
+	public ModifierExample(int min, int max, int defaultValue) {
 		super(
-				/* The menu were your setting will be shown in. */ MenuType.SETTINGS,
-				/* Maximum value of setting */ max,
-				/* Minimum value of the setting */ min,
-				/* The value the setting will have by default */ defaultValue
+				MenuType.SETTINGS, // The menu were your setting will be shown in.
+				max, // Maximum value of setting
+				min, // Minimum value of the setting
+				defaultValue // The value the setting will have by default
 		);
 	}
 
@@ -55,7 +55,7 @@ public class ExampleModifier extends Modifier {
 	 */
 	@Override
 	protected void onValueChange() {
-
+		Bukkit.broadcastMessage("Value: " + getValue());
 	}
 
 }

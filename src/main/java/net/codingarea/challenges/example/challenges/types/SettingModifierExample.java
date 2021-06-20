@@ -1,22 +1,20 @@
-package net.codingarea.challenges.example.challenges;
+package net.codingarea.challenges.example.challenges.types;
 
-import net.anweisen.utilities.common.logging.internal.factory.ConstantLoggerFactory;
-import net.codingarea.challenges.plugin.challenges.type.abstraction.Modifier;
-import net.codingarea.challenges.plugin.challenges.type.abstraction.Setting;
 import net.codingarea.challenges.plugin.challenges.type.abstraction.SettingModifier;
 import net.codingarea.challenges.plugin.management.menu.MenuType;
 import net.codingarea.challenges.plugin.utils.item.ItemBuilder;
+import org.bukkit.Bukkit;
 import org.bukkit.Material;
 
 /**
  * An example of the setting type {@link SettingModifier} which contains a boolean and an integer value.
  */
-public class ExampleSettingModifier extends SettingModifier {
+public class SettingModifierExample extends SettingModifier {
 
 	/**
 	 * Example constructor with maximum value.
 	 */
-	public ExampleSettingModifier(int max) {
+	public SettingModifierExample(int max) {
 		super(
 				MenuType.SETTINGS, // The menu were your setting will be shown in
 				max // Maximum value of challenge
@@ -26,7 +24,7 @@ public class ExampleSettingModifier extends SettingModifier {
 	/**
 	 * Example constructor with minimum and maximum value.
 	 */
-	public ExampleSettingModifier(int min, int max) {
+	public SettingModifierExample(int min, int max) {
 		super(
 				MenuType.SETTINGS, // The menu were your setting will be shown in
 				max, // Maximum value of setting
@@ -37,7 +35,7 @@ public class ExampleSettingModifier extends SettingModifier {
 	/**
 	 * Example constructor with minimum, maximum and default value.
 	 */
-	public ExampleSettingModifier(int min, int max, int defaultValue) {
+	public SettingModifierExample(int min, int max, int defaultValue) {
 		super(
 				MenuType.SETTINGS, // The menu were your setting will be shown in
 				max, // Maximum value of setting
@@ -72,7 +70,7 @@ public class ExampleSettingModifier extends SettingModifier {
 	 */
 	@Override
 	protected void onValueChange() {
-
+		Bukkit.broadcastMessage("Value: " + getValue());
 	}
 
 }

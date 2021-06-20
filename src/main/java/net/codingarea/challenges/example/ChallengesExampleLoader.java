@@ -1,9 +1,9 @@
 package net.codingarea.challenges.example;
 
 import net.anweisen.utilities.bukkit.core.BukkitModule;
-import net.codingarea.challenges.example.challenges.ExampleModifier;
-import net.codingarea.challenges.example.challenges.ExampleCommandSetting;
-import net.codingarea.challenges.example.challenges.ExampleSettingModifier;
+import net.codingarea.challenges.example.challenges.types.ModifierExample;
+import net.codingarea.challenges.example.challenges.others.CommandExample;
+import net.codingarea.challenges.example.challenges.types.SettingModifierExample;
 import net.codingarea.challenges.plugin.management.challenges.ModuleChallengeLoader;
 import org.bukkit.Material;
 import org.bukkit.event.entity.EntityDamageEvent.DamageCause;
@@ -23,14 +23,14 @@ public class ChallengesExampleLoader extends ModuleChallengeLoader {
 	public void load() {
 
 		// Register the challenge with the class
-		register(ExampleCommandSetting.class);
-		register(ExampleModifier.class);
+		register(CommandExample.class);
+		register(ModifierExample.class);
 
 		// Put parameters after the challenge class to use a certain constructor
-		register(ExampleSettingModifier.class, 10, 10, 10);
+		register(SettingModifierExample.class, 10, 10, 10);
 
 		// Register a setting with a command of your plugin.
-		registerWithCommand(ExampleCommandSetting.class, "example");
+		registerWithCommand(CommandExample.class, "example");
 
 		// Register an own damage rule in the Damage Menu Type
 		registerDamageRule(

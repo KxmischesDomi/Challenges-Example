@@ -1,4 +1,4 @@
-package net.codingarea.challenges.example.challenges;
+package net.codingarea.challenges.example.challenges.others;
 
 import net.codingarea.challenges.plugin.challenges.type.abstraction.Setting;
 import net.codingarea.challenges.plugin.management.menu.MenuType;
@@ -21,9 +21,9 @@ import java.util.List;
  * {@link PlayerCommand} is an instance of {@link CommandExecutor} which only executes when the sender is a player.
  * {@link TabCompleter} is the default bukkit interface to add tab completion.
  */
-public class ExampleCommandSetting extends Setting implements PlayerCommand, TabCompleter {
+public class CommandExample extends Setting implements PlayerCommand, TabCompleter {
 
-	public ExampleCommandSetting() {
+	public CommandExample() {
 		super(
 				MenuType.SETTINGS, // The menu were your challenge will be shown in
 				false // If the challenge should be activated by default
