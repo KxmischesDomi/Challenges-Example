@@ -3,6 +3,7 @@ package net.codingarea.challenges.example;
 import net.anweisen.utilities.bukkit.core.BukkitModule;
 import net.codingarea.challenges.example.challenges.types.ModifierExample;
 import net.codingarea.challenges.example.challenges.others.CommandExample;
+import net.codingarea.challenges.example.challenges.types.SettingExample;
 import net.codingarea.challenges.example.challenges.types.SettingModifierExample;
 import net.codingarea.challenges.plugin.management.challenges.ModuleChallengeLoader;
 import org.bukkit.Material;
@@ -23,7 +24,7 @@ public class ChallengesExampleLoader extends ModuleChallengeLoader {
 	public void load() {
 
 		// Register the challenge with the class
-		register(CommandExample.class);
+		register(SettingExample.class);
 		register(ModifierExample.class);
 
 		// Put parameters after the challenge class to use a certain constructor
