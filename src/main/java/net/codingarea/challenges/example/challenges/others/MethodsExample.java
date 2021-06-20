@@ -13,9 +13,9 @@ import java.util.List;
 /**
  * An example for Utilities methods
  */
-public class ChallengeMethodsExample extends Setting {
+public class MethodsExample extends Setting {
 
-	public ChallengeMethodsExample(MenuType menu) {
+	public MethodsExample(MenuType menu) {
 		super(menu);
 	}
 

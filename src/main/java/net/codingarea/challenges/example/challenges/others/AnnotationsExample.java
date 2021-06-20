@@ -24,9 +24,9 @@ import net.codingarea.challenges.plugin.utils.item.ItemBuilder;
  */
 @CanInstaKillOnEnable
 @ExcludeFromRandomChallenges
-public class ChallengeAnnotationsExample extends Setting {
+public class AnnotationsExample extends Setting {
 
-	public ChallengeAnnotationsExample(MenuType menu) {
+	public AnnotationsExample(MenuType menu) {
 		super(menu);
 	}
 
