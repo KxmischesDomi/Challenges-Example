@@ -1,12 +1,10 @@
-package net.codingarea.challenges.example.challenges.types;
+package net.codingarea.challenges.example.examples.types;
 
 import net.codingarea.challenges.plugin.ChallengeAPI;
 import net.codingarea.challenges.plugin.challenges.type.abstraction.SettingGoal;
-import net.codingarea.challenges.plugin.challenges.type.abstraction.SettingModifierGoal;
 import net.codingarea.challenges.plugin.management.menu.MenuType;
 import net.codingarea.challenges.plugin.management.server.ChallengeEndCause;
 import net.codingarea.challenges.plugin.utils.item.ItemBuilder;
-import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 
 import java.util.List;
@@ -15,14 +13,7 @@ import java.util.List;
  * An example of the goal type {@link SettingGoal} which contains an integer value.
  * No constructor is needed because the default MenuType is {@link MenuType#GOAL}
  */
-public class SettingModifierGoalExample extends SettingModifierGoal {
-
-	/**
-	 * Constructors are the same as in {@link SettingModifierExample}
-	 */
-	public SettingModifierGoalExample() {
-		super(MenuType.GOAL, 1, 10, 5);
-	}
+public class SettingGoalExample extends SettingGoal {
 
 	@Override
 	public ItemBuilder createDisplayItem() {
@@ -35,11 +26,6 @@ public class SettingModifierGoalExample extends SettingModifierGoal {
 	@Override
 	public void getWinnersOnEnd(List<Player> list) {
 
-	}
-
-	@Override
-	protected void onValueChange() {
-		Bukkit.broadcastMessage("Value: " + getValue());
 	}
 
 	private void endChallenge() {

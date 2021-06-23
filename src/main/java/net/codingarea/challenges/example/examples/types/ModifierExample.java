@@ -1,4 +1,4 @@
-package net.codingarea.challenges.example.challenges.types;
+package net.codingarea.challenges.example.examples.types;
 
 import net.codingarea.challenges.plugin.challenges.type.abstraction.Modifier;
 import net.codingarea.challenges.plugin.management.menu.MenuType;

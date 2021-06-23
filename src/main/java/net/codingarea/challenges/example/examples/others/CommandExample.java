@@ -1,4 +1,4 @@
-package net.codingarea.challenges.example.challenges.others;
+package net.codingarea.challenges.example.examples.others;
 
 import net.codingarea.challenges.plugin.challenges.type.abstraction.Setting;
 import net.codingarea.challenges.plugin.management.menu.MenuType;
@@ -11,7 +11,6 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.command.TabCompleter;
 import org.bukkit.entity.Player;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 

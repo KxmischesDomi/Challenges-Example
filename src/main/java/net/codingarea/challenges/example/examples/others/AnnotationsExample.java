@@ -1,4 +1,4 @@
-package net.codingarea.challenges.example.challenges.others;
+package net.codingarea.challenges.example.examples.others;
 
 import net.codingarea.challenges.plugin.challenges.implementation.challenge.RandomChallengeChallenge;
 import net.codingarea.challenges.plugin.challenges.type.abstraction.Setting;

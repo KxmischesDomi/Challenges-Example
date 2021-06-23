@@ -1,4 +1,4 @@
-package net.codingarea.challenges.example.challenges.others;
+package net.codingarea.challenges.example.examples.others;
 
 import net.anweisen.utilities.common.config.Document;
 import net.codingarea.challenges.plugin.challenges.type.abstraction.Setting;
@@ -50,6 +50,9 @@ public class GameStateExample extends Setting {
 		if (!shouldExecuteEffect()) return;
 		if (ignorePlayer(event.getPlayer())) return;
 		jumps++;
+
+		// You can also save data for every player
+		getPlayerData(event.getPlayer()).set("jumps", getPlayerData(event.getPlayer()).getInt("jumps"));
 	}
 
 	/**

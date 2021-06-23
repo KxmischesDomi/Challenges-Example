@@ -1,10 +1,10 @@
 package net.codingarea.challenges.example;
 
 import net.anweisen.utilities.bukkit.core.BukkitModule;
-import net.codingarea.challenges.example.challenges.types.ModifierExample;
-import net.codingarea.challenges.example.challenges.others.CommandExample;
-import net.codingarea.challenges.example.challenges.types.SettingExample;
-import net.codingarea.challenges.example.challenges.types.SettingModifierExample;
+import net.codingarea.challenges.example.examples.types.ModifierExample;
+import net.codingarea.challenges.example.examples.others.CommandExample;
+import net.codingarea.challenges.example.examples.types.SettingExample;
+import net.codingarea.challenges.example.examples.types.SettingModifierExample;
 import net.codingarea.challenges.plugin.management.challenges.ModuleChallengeLoader;
 import org.bukkit.Material;
 import org.bukkit.event.entity.EntityDamageEvent.DamageCause;
