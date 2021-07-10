@@ -38,6 +38,6 @@ Everything should be documented with comments.
 
 [Utility methods](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/others/ChallengeMethodsExample.java) - Some useful and must use methods
 
-[Annotations](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/others/ChallengeAnnotationsExample.java) - Annotations for the challenge class
+[Annotations](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/others/AnnotationsExample.java) - Annotations for the challenge class
 
 [Randoms](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/others/RandomExample.java) - Own random instance
