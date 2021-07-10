@@ -8,8 +8,8 @@ In these examples, the **Spigot API** is added via maven, and the **Challenges A
 
 ## Setup
 
-To set up your plugin, you should have a look at the [plugin class](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examplesExample.java)
-and the [challenges loader](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examplesExampleLoader.java).
+To set up your plugin, you should have a look at the [plugin class](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/ChallengesExample.java)
+and the [challenges loader](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/ChallengesExampleLoader.java).
 
 Everything should be documented with comments.
 
