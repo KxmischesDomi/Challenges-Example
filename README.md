@@ -16,18 +16,18 @@ Everything should be documented with comments.
 ## Examples
 
 #### Challenges
-[Setting](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/types/SettingExample.java) - On / Of
+[Setting](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/types/SettingExample.java) - On / Off
 
 [Modifier](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/types/ModifierExample.java) - Different Value
 
-[SettingModifier](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/types/SettingModifierExample.java) - On / Of / Different Value
+[SettingModifier](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/types/SettingModifierExample.java) - On / Off / Different Value
 
-[TimedChallenge](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/types/TimedChallengeExample.java) - On / Of / Different Value - Timed method execution
+[TimedChallenge](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/types/TimedChallengeExample.java) - On / Off / Different Value - Timed method execution
 
 #### Goals
-[SettingGoal](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/types/SettingGoalExample.java) - On / Of
+[SettingGoal](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/types/SettingGoalExample.java) - On / Off
 
-[SettingModifierGoal](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/types/SettingModifierGoalExample.java) - On / Of / Different Value
+[SettingModifierGoal](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/types/SettingModifierGoalExample.java) - On / Off / Different Value
 
 #### Other examples
 [Saving data](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/others/GameStateExample.java) - Save data through server restarts
@@ -38,6 +38,6 @@ Everything should be documented with comments.
 
 [Utility methods](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/others/ChallengeMethodsExample.java) - Some useful and must use methods
 
-[Annotations](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/others/AnnotationsExample.java) - Annotations for the challenge class
+[Annotations](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/others/AnnotationsExample.java) - Annotations for the challenge class and builtin timer and event api
 
 [Randoms](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/others/RandomExample.java) - Own random instance
