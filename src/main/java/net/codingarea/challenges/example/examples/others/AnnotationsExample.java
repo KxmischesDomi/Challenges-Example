@@ -1,5 +1,6 @@
 package net.codingarea.challenges.example.examples.others;
 
+import net.anweisen.utilities.common.annotations.Since;
 import net.codingarea.challenges.plugin.challenges.implementation.challenge.RandomChallengeChallenge;
 import net.codingarea.challenges.plugin.challenges.type.abstraction.Setting;
 import net.codingarea.challenges.plugin.management.challenges.annotations.CanInstaKillOnEnable;
@@ -17,11 +18,13 @@ import net.codingarea.challenges.plugin.utils.item.ItemBuilder;
 /**
  * Example to show annotations which can be used to improve your challenges
  *
+ * {@link Since} indicates when you challenge was added to the plugin. Used to display the "new" suffix behind the display item's name when its new
  * {@link CanInstaKillOnEnable} should be used when your challenge can instantly kill players when its enabled
  * {@link ExcludeFromRandomChallenges} excludes this challenge from {@link RandomChallengeChallenge}
  *
  * The following method examples are showing two other annotations which are used to detect timer status updates and timer updates.
  */
+@Since("1.0")
 @CanInstaKillOnEnable
 @ExcludeFromRandomChallenges
 public class AnnotationsExample extends Setting {
