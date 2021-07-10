@@ -15,20 +15,29 @@ Everything should be documented with comments.
 
 ## Examples
 
-**Challenges:** 
-[Setting](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/types/SettingExample.java),
-[Modifier](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/types/ModifierExample.java), 
-[SettingModifier](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/types/SettingModifierExample.java)
-[TimedChallenge](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/types/TimedChallengeExample.java)
+#### Challenges
+[Setting](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/types/SettingExample.java) - On / Of
 
-**Goals:** 
-[SettingGoal](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/types/SettingGoalExample.java), 
-[SettingModifierGoal](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/types/SettingModifierGoalExample.java)
+[Modifier](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/types/ModifierExample.java) - Different Value
 
-**Other examples:**
-[Saving data](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/others/GameStateExample.java),
-[Custom setting item](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/others/CustomSettingsItemExample.java),
-[Command](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/others/CommandExample.java),
-[Utility methods](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/others/ChallengeMethodsExample.java),
-[Annotations](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/others/ChallengeAnnotationsExample.java)
-[Randoms](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/others/RandomExample.java)
+[SettingModifier](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/types/SettingModifierExample.java) - On / Of / Different Value
+
+[TimedChallenge](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/types/TimedChallengeExample.java) - On / Of / Different Value - Timed method execution
+
+#### Goals
+[SettingGoal](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/types/SettingGoalExample.java) - On / Of
+
+[SettingModifierGoal](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/types/SettingModifierGoalExample.java) - On / Of / Different Value
+
+#### Other examples
+[Saving data](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/others/GameStateExample.java) - Save data through server restarts
+
+[Custom setting item](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/others/CustomSettingsItemExample.java) - Custom status item under display item 
+
+[Command](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/others/CommandExample.java) - Integrated command in challenge
+
+[Utility methods](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/others/ChallengeMethodsExample.java) - Some useful and must use methods
+
+[Annotations](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/others/ChallengeAnnotationsExample.java) - Annotations for the challenge class
+
+[Randoms](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/others/RandomExample.java) - Own random instance
