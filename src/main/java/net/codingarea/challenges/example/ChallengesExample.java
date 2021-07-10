@@ -5,7 +5,7 @@ import net.codingarea.challenges.plugin.management.challenges.ModuleChallengeLoa
 import org.bukkit.plugin.java.JavaPlugin;
 
 /**
- * {@link BukkitModule} is needed for the api to work properly.
+ * {@link BukkitModule} is used as replacement for {@link JavaPlugin} and is needed for the api to work properly.
  */
 public class ChallengesExample extends BukkitModule {
 
