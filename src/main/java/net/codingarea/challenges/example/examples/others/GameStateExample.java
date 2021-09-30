@@ -52,7 +52,7 @@ public class GameStateExample extends Setting {
 		jumps++;
 
 		// You can also save data for every player
-		getPlayerData(event.getPlayer()).set("jumps", getPlayerData(event.getPlayer()).getInt("jumps"));
+		getPlayerData(event.getPlayer()).set("jumps", getPlayerData(event.getPlayer()).getInt("jumps") + 1);
 	}
 
 	/**
