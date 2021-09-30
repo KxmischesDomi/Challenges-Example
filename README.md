@@ -36,7 +36,7 @@ Everything should be documented with comments.
 
 [Command](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/others/CommandExample.java) - Integrated command in challenge
 
-[Utility methods](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/others/ChallengeMethodsExample.java) - Some useful and must use methods
+[Utility methods](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/others/MethodsExample.java) - Some useful and must use methods
 
 [Annotations](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/others/AnnotationsExample.java) - Annotations for the challenge class and builtin timer and event api
 
