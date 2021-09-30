@@ -18,16 +18,16 @@ Everything should be documented with comments.
 #### Challenges
 [Setting](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/types/SettingExample.java) - On / Off
 
-[Modifier](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/types/ModifierExample.java) - Different Value
+[Modifier](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/types/ModifierExample.java) - Int Value
 
-[SettingModifier](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/types/SettingModifierExample.java) - On / Off / Different Value
+[SettingModifier](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/types/SettingModifierExample.java) - On / Off / Int Value
 
-[TimedChallenge](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/types/TimedChallengeExample.java) - On / Off / Different Value - Timed method execution
+[TimedChallenge](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/types/TimedChallengeExample.java) - On / Off / Int Value - Timed method execution
 
 #### Goals
 [SettingGoal](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/types/SettingGoalExample.java) - On / Off
 
-[SettingModifierGoal](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/types/SettingModifierGoalExample.java) - On / Off / Different Value
+[SettingModifierGoal](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/types/SettingModifierGoalExample.java) - On / Off / Int Value
 
 #### Other examples
 [Saving data](https://github.com/KxmischesDomi/Challenges-Example/blob/master/src/main/java/net/codingarea/challenges/example/examples/others/GameStateExample.java) - Save data through server restarts
