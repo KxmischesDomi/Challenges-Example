@@ -18,7 +18,7 @@ import net.codingarea.challenges.plugin.utils.item.ItemBuilder;
 /**
  * Example to show annotations which can be used to improve your challenges
  *
- * {@link Since} indicates when you challenge was added to the plugin. Used to display the "new" suffix behind the display item's name when its new
+ * {@link Since} indicates when the challenge was added to the plugin. Used to display the "new" suffix behind the display item's name when its new
  * {@link CanInstaKillOnEnable} should be used when your challenge can instantly kill players when its enabled
  * {@link ExcludeFromRandomChallenges} excludes this challenge from {@link RandomChallengeChallenge}
  *
