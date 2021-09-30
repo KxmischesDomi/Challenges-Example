@@ -57,7 +57,7 @@ public class AnnotationsExample extends Setting {
 	}
 
 	/**
-	 * Others parameters will be showed in this example
+	 * Others parameters will be showen in this example
 	 */
 	@TimerTask(
 			status = TimerStatus.RUNNING, // When timer is started
@@ -90,7 +90,7 @@ public class AnnotationsExample extends Setting {
 	}
 
 	/**
-	 * Others parameters will be showed in this example
+	 * Others parameters will be showen in this example
 	 */
 	@ScheduledTask(
 			ticks = 1, // Every tick
